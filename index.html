@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/18133?s=200&v=4">
+    <title>Clase Git | Academia Java 2022</title>
+</head>
+
+<body>
+    <section class="fullpage section-1" id="sect-1">
+        <h1>Clase Git</h1>
+        <div class="desc-section center">
+            <p class="desc-git">GIT es un sistema de control de versiones, desarrollado por Linus Torvalds, el cual
+                tiene como objetivo aumentar la eficiencía, compatibilidad y confiabilidad en el desarrollo y
+                mantenimiento de proyectos software</p>
+        </div>
+        <div class="imgs center">
+            <img class="logo-git center" src="https://i.blogs.es/195f61/linus1/1366_2000.jpg" alt="img-git">
+            <img class="logo-git center"
+                src="https://kinsta.com/es/wp-content/uploads/sites/8/2022/01/git-para-desarrollo-web.jpeg"
+                alt="img-git">
+            <img class="logo-git center"
+                src="https://www.redeszone.net/app/uploads-redeszone.net/2017/11/instalar-linux-cosas.jpg"
+                alt="img-git">
+        </div>
+    </section>
+    <section class="fullpage section-2" id="sect-2">
+        <h1>Git vs Gitlab</h1>
+        <div class="desc-section center">
+            <p class="desc-git">GIT es un sistema de control de versiones. GitHub, GitLab, BitBucket, etc. Son las
+                plataformas en las cuales podemos alojar el código fuente de nuestros proyectos. </p>
+        </div>
+        <div class="imgs center">
+            <img class="logo-git center"
+                src="https://marketing4ecommerce.net/wp-content/uploads/2018/06/GitHub-logo-2-imagen.jpg" alt="img-git">
+            <img class="logo-git center"
+                src="https://storage.googleapis.com/wp-tg-medialess-b0f053fb-3872-4dfd-820f-c991becafc82/2021/07/b3c3733a-gitlab-e1643233343942.jpeg"
+                alt="img-git">
+            <img class="logo-git center"
+                src="https://media.datacenterdynamics.com/media/images/Bitbucket-Logo.wine.original.png" alt="img-git">
+        </div>
+    </section>
+    <section class="fullpage section-3" id="sect-3">
+        <h1>Git es como una paqueteria</h1>
+        <div class="desc-section center">
+            <div class="desc-git">
+                <p>El funcionamiento de git podemos relacionarlo con el funcionamiento de una agencia de envios como
+                    DHL, Fedex o Estafeta.
+                </p>
+                <p>Ya que en estas se tiene un inventario / bitacora de los productos a enviar.</p>
+                DHL, Fedex o Estafeta.</p>
+                <p> Aqui estuvo Emmanuel v:</p>
+                <p>Escribo algo aqui</p>
+                <p>Vamos a causar un conflicto</p>
+                <p>Git hace algo similar, solo que git en lugar de enviar productos o cartas, este envia archivos,
+                    registos y cambios</p>
+            </div>
+        </div>
+        <div class="imgs center">
+            <img class="logo-git center" src="https://d1ih8jugeo2m5m.cloudfront.net/2021/01/envios-paqueteria.jpg"
+                alt="img-git">
+            <img class="logo-git center"
+                src="https://james-journey.com/wp-content/uploads/2020/09/Envios-rapidos-y-seguros-con-las-mejores-herrameintas-digitales.png"
+                alt="img-git">
+            <img class="logo-git center"
+                src="https://lokalise.com/blog/wp-content/uploads/2021/07/Git-commands-social-media-banner.png"
+                alt="img-git">
+        </div>
+    </section>
+    <section class="fullpage section-4" id="sect-4">
+        <h1>¿Como se ditribuye?</h1>
+        <img class="git-control center"
+            src="https://blog.ida.cl/wp-content/uploads/sites/5/2018/08/Representacio%CC%81n-de-funcionamiento-de-git-1-e1535462543935.png"
+            alt="contro-git">
+    </section>
+    <section class="fullpage section-5" id="sect-5">
+        <h1>Comandos basicos</h1>
+        <div class="center git-basics">
+            <div class="desc-branch">
+                <ul>
+                    <li>
+                        <p><strong>git pull</strong>: Para bajar o descargar cambios de la rama en la que nos
+                            encontramos situados</p>
+                    </li>
+                    <li>
+                        <p><strong>git pull origin "nombre-rama"</strong>: Para bajar o descargar cambios de alguna rama
+                            activa o diferente (main)</p>
+                    </li>
+                    <li>
+                        <p><strong>git add .</strong>: Para agregar todos los cambios</p>
+                    </li>
+                    <li>
+                        <p><strong>git add ruta_nombre_archivo</strong>: Para agregar un cambios especifico en un
+                            archivo</p>
+                    </li>
+                    <li>
+                        <p><strong>git commit -m "mensaje"</strong>: Para agregar un breve mensaje sobre los cambios
+                            realizados.</p>
+                    </li>
+                    <li>
+                        <p><strong>git push origin -u "rama a la cual se enviaran"</strong>: Para enviar cambios, la
+                            rama tiene que ser sobre en la que estamos situados o en la que estamos trabajando</p>
+                    </li>
+                    <li>
+                        <p><strong>git status</strong>: Para ver el status de nuestro repositorio, si tenemos cambios
+                            sin subir o si esta desactualizado nuestro repositorio</p>
+                    </li>
+                    <li>
+                        <p><strong>git log</strong>: Para ver el historial de commits</p>
+                    </li>
+                    <li>
+                        <p><strong>git stash</strong>: Para "esconder" tus cambios</p>
+                    </li>
+                    <li>
+                        <p><strong>git branch</strong>: Para mostrar las ramas de nuestro repositorio</p>
+                    </li>
+                    <li>
+                        <p><strong>git checkout -b "NombreRama"</strong>: Para crear una nueva rama</p>
+                    </li>
+                    <li>
+                        <p><strong>git checkout NombreRama</strong>: Para cambiarse a una rama en concreto</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="fullpage section-6" id="sect-6">
+        <div class="desc-section-branch">
+            <div class="desc-branch">
+                <h3 style="text-align: center; font-size: 50px">Branches (Ramas)</h3>
+                <ul>
+                    <li>
+                        <p>Las ramas en git, son una especie de camino en el cual se concentraran los cambios de cada
+                            caractersitica a desarrollar.</p>
+                    </li>
+                    <li>
+                        <p>Obligatoriamente se tendra al menos una rama base (main / master), esto depende del equipo de
+                            desarrollo y se pueden tener hasta 3 ramas base</p>
+                        <ul>
+                            <li>Develop</li>
+                            <li>QA</li>
+                            <li>Producción</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Las ramas son creadas por cada desarollador</p>
+                    </li>
+                    <li>
+                        <p>Se tiene que respetar cierta nomenclatura para nombrar nuestras ramas (esto depende del
+                            equipo de desarollo)</p>
+                        <ul>
+                            <li>Para agregar una nueva caracteristica: "feature/#num_NombreCaracteristica". Ejemplo:
+                                <strong>feature/#12_RegistroUsuarios</strong>
+                            </li>
+                            <li>Para solucionar un bug con prioridad moderada o baja:
+                                <strong>"bugfix/#num_NombreBug</strong>
+                            </li>
+                            <li>Para solucionar un bug con prioridad alta: <strong>"hotfix/#num_NombreBug"</strong></li>
+                            <li>Para el entregable o versió con avances para mostrar al usuario:
+                                <strong>"release/01"</strong>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img class="git-branches center"
+            src="https://wac-cdn.atlassian.com/dam/jcr:c6db91c1-1343-4d45-8c93-bdba910b9506/02%20Branch-1%20kopiera.png?cdnVersion=637"
+            alt="contro-git">
+    </section>
+    <section class="fullpage section-7" id="sect-7">
+        <h1>Merge</h1>
+        <div class="desc-section center">
+            <div class="desc-git">
+                <p>+El merge basicamente es la fusion de cambios entre 2 ramas.</p>
+                <p>+Si aplicamos un Merge, solo se encontarian los caminos del registro de cambios de nuestras ramas</p>
+                <p>+Por ejemplo si estamos en una rama con una caracteristica nueva y queremos unir los cambos de otra
+                    rama activa. Debemos jalar o traer la rama activa.</p>
+                <p>Ejemplo</p>
+                <ul>
+                    <li>Primero nos situamos en la rama en la cual queremos traer los cambios: <strong>git checkout
+                            feature/#23_LoginFrontend</strong></li>
+                    <li>Despues identificamos la rama de la cual queremos traer los cambios en este caso la rama que
+                        jalaermos sera: <strong>feature/#54_ApiLogin</strong></li>
+                    <li>Una vez identificadas las ramas, procedemos a hacer el merge con el comando: <strong>git merge
+                            feature/#54_ApiLogin</strong></li>
+                    <li>Si surgen conflictos tendremos que resolverlos, en caso de que no surja ninguno, la rama sobre
+                        la que estamos pocisionados (feature/#23_LoginFrontend) jalara los cambios de la rama activa
+                        (feature/#54_ApiLogin)</li>
+                </ul>
+                <p>+Un ejemplo más simple es cuando se hace un PR (Pull Request), github por detras hace un Merge,
+                    jalando los cambios de nuestra rama (feature) dentro de la rama base (main / master)</p>
+            </div>
+        </div>
+    </section>
+    <section class="fullpage section-8" id="sect-8">
+        <h1>Rebase</h1>
+        <div class="desc-section center">
+            <div class="desc-git">
+                <p>+El rebase hace algo similr al merge, pero con la excepción de que por detras hace la unión de 2
+                    ramas en 1 sola</p>
+                <p>+Si aplicamos un rebase, el camino o registro de cambios de la rama en la que estamos trabajando se
+                    perdera una vez hecho el PR</p>
+                <p>+Por ejemplo si estamos en una rama con una caracteristica nueva a desarrollar y queremos intergrarla
+                    con la rama base (master o main), debemos hacer lo siguiente</p>
+                <ul>
+                    <li>Primero nos situamos en la rama en la cual queremos traer los cambios: <strong>git checkout
+                            feature/#23_LoginFrontend</strong></li>
+                    <li>Despues identificamos la rama de la cual queremos traer los cambios en este caso la rama que
+                        jalaermos sera: <strong>main</strong></li>
+                    <li>Una vez identificadas las ramas, procedemos a hacer el merge con el comando: <strong>git rebase
+                            main</strong></li>
+                    <li>Si surgen conflictos tendremos que resolverlos, en caso de que no surja ninguno, la rama sobre
+                        la que estamos pocisionados (feature/#23_LoginFrontend) jalara los cambios de la rama activa
+                        (main)</li>
+                    <li>Para el caso de que surjan conflictos, debermos resolver conflictos y hacer un commit, una vez
+                        hecho esto continuamos con git rebasse --continue</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="fullpage section-9" id="sect-9">
+        <h1>Merge vs Rebase</h1>
+        <img class="merge-rebase center" src="https://www.edureka.co/blog/wp-content/uploads/2022/01/fig13.png"
+            alt="merge-vs-rebase">
+        </div>
+    </section>
+     <section class="fullpage section-8" id="sect-8">
+        <h1>Probando Bloque >:v</h1>
+        <div class="desc-section center">
+            <div class="desc-git">
+                <p>Vamos a probar si tenemos algun problema compañeritos</p>
+                
+                
+            </div>
+        </div>
+    </section>
+    <section class="fullpage section-10" id="sect-10">
+        <h1>Conflicts</h1>
+        <div class="desc-section center">
+            <div class="desc-git">
+                <p>-Son problemas causados, principalmente cuando 2 desarolladores o más estan editando los mismos
+                    archivo o directorios</p>
+                <p>-Estos conflictos forsozamente se deben resolver de manera manual</p>
+                <p>-Por lo regular se hacen presentes cuando hacemos un pull, rebase o merge</p>
+            </div>
+        </div>
+        <img class="conflicts-img center" height="400px" width="60%"
+            src="https://www.freecodecamp.org/news/content/images/2022/05/image-45.png" alt="conflicts-img">
+    </section>
+    <section class="fullpage section-11" id="sect-11">
+        <h1>Cherry Pick</h1>
+        <div class="desc-section center">
+            <div class="desc-git">
+                <p>-Basicamente es una tecnica mediante la cual, podemos traer commits especificos desde otra rama, pero
+                    sin la necesidad de unir sus cambios o fusionar ramas en 1 sola</p>
+                <p>-Es usado amenudo cuando surjen errores en ramas base alternas como develop o producción</p>
+                <p>-Es usada en casos muy especificos, pero igual depende del equipo de desarrollo</p>
+            </div>
+        </div>
+        <img class="conflicts-img center" height="350px" width="60%"
+            src="https://mattstauffer.com/assets/images/content/opengraph/cherry-pick.png" alt="conflicts-img">
+    </section>
+    <section class="fullpage section-7" id="sect-7">
+        <h1>Create a new branches</h1>
+        <div class="desc-section center">
+            <div class="desc-git">
+                <p>+El merge basicamente es la fusion de cambios entre 2 ramas.</p>
+                <p>+Si aplicamos un Merge, solo se encontarian los caminos del registro de cambios de nuestras ramas</p>
+                <p>+Por ejemplo si estamos en una rama con una caracteristica nueva y queremos unir los cambos de otra
+                    rama activa. Debemos jalar o traer la rama activa.</p>
+                <p>Ejemplo</p>
+                <ul>
+                    <li>Primero nos situamos en la rama en la cual queremos traer los cambios: <strong>git checkout
+                            feature/#23_LoginFrontend</strong></li>
+                    <li>Despues identificamos la rama de la cual queremos traer los cambios en este caso la rama que
+                        jalaermos sera: <strong>feature/#54_ApiLogin</strong></li>
+                    <li>Una vez identificadas las ramas, procedemos a hacer el merge con el comando: <strong>git merge
+                            feature/#54_ApiLogin</strong></li>
+                    <li>Si surgen conflictos tendremos que resolverlos, en caso de que no surja ninguno, la rama sobre
+                        la que estamos pocisionados (feature/#23_LoginFrontend) jalara los cambios de la rama activa
+                        (feature/#54_ApiLogin)</li>
+                </ul>
+                <p>+Un ejemplo más simple es cuando se hace un PR (Pull Request), github por detras hace un Merge,
+                    jalando los cambios de nuestra rama (feature) dentro de la rama base (main / master)</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
